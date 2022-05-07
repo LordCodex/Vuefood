@@ -1,0 +1,99 @@
+.hero-section {
+    background-color: rgb(9, 11, 36);
+   
+   background-image: linear-gradient(green 0%, rgba(62, 125, 255, 0) 100%);
+  }
+  .nav-bar{
+      width: 100%;
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 1.5em 0 ;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      }
+      .logo h1{
+      font-size: 24px;
+      font-weight: 700;
+      color: white;
+  }
+  .navs-2{
+      display: flex;
+      align-items: center;
+      gap:5.5em;
+      font-weight: bold;
+  }
+  ul{
+      display: flex;
+      gap: 1em;
+     
+  }
+   li a{
+       color: white;
+      }
+  
+      .nav-icon{
+      color: white;
+  }
+  .hero-content{
+      display: flex;
+      width: 100%;
+      max-width: 90%;
+      margin: 0 auto;
+      align-items: center;
+      gap: 2em;
+      padding: 2em 0px 3em;
+     
+  
+  }
+  .hero-text{
+      color: white;
+      font-family: Inter, sans-serif;
+  }
+  .hero-text h1{
+      font-size: 2.5rem;
+      line-height: 55px;
+      font-weight: 700;
+  }
+  .hero-text p{
+      color: white;
+      opacity: 0.7;
+      font-weight: 400;
+  }
+  .btn{
+      background-color: white;
+      color: green;
+      border: 1px solid transparent;
+      box-shadow: rgb(40 41 61 / 4%) 0px 0px 1px, rgb(96 97 112 / 16%) 0px 2px 4px;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 12px 24px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.5s ease-in-out 0s, color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  }
+  .hero-button{
+      display: flex;
+      gap: 2em;
+      align-items: center;
+  }
+
+  @media (max-width: 768px) {
+.nav-links{
+    display: none;
+}
+.hero-content{
+    flex-direction: column;
+}
+img{
+    width: 100%;}
+
+   .hero-text h1{
+        font-size: 1.8rem;
+        line-height: 40px;
+    }
+  }
