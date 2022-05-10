@@ -2,7 +2,7 @@
   <div v-bind:class="'hero-section'">
     <div v-bind:class="'nav-bar'">
       <div class="logo">
-            <h1> &#9776; VUE-FOOD</h1>
+            <h1> <i class="fa-solid fa-mug-saucer"></i> VUE-FOOD</h1>
         </div>
         <div class="navs-2">
       <div class="nav-links">
@@ -28,7 +28,7 @@
             </ul>
       </div>
       <div class="nav-icon">
-         <h2> &#9776;</h2>
+         <h2> <i class="fa-solid fa-bars"></i></h2>
         </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
                     <br>
                     <div class="hero-button">
     <button  v-bind:class="'btn'" v-on="btn">ORDER NOW</button>
-    <h4> <b>➧</b>  Watch Intro</h4>
+    <h4> <i class="fa-solid fa-play"></i> &nbsp; Watch Intro</h4>
     </div>
         </div>
         <div class="hero-image">
